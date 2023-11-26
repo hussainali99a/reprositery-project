@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Code Snippet Repository</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__title">Code Snippet Repository</h1>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#">Home</a></li>
+                <li class="nav__item"><a href="#">Explore</a></li>
+                <li class="nav__item"><a href="#">Login</a></li>
+                <li class="nav__item"><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h3 id="head2">Popular Playgrounds and IDE</h3>
+    <div class="flex-container">
+        <div>
+            <iframe src="https://preview.codepad.co/playground/preview/scroll-micro-animation-in-css/1" frameborder="0" width="100%" height="100%"></iframe>
+        </div>
+        <div> 
+            <iframe src="https://preview.codepad.co/playground/preview/properties-for-the-flexbox-container/1" name = "myscroll" frameborder="0" width="100%" height="100%"></iframe>
+        </div>
+        <div>
+            <a href="https://vscode.dev/"><img src="./images/vs.PNG" alt="image" height="100%" width="100%"></a>
+        </div>
+
+    </div>
+
+    
+    <main>
+        <br>
+        <section class="snippet">
+            <h2 class="snippet__title">Recent Snippets</h2>
+            <div class="snippet-card">
+                <h3 class="snippet-card__title">Snippet Title</h3>
+                <p class="snippet-card__description">Code snippet description or details...</p>
+                <code class="snippet-card__code">// Actual code snippet here</code>
+                
+                <button class="snippet-card__btn">View Details</button>
+            </div>
+            <!-- Repeat snippet cards for multiple snippets -->
+        </section>
+
+        <section class="submit-snippet">
+            <h2 class="submit-snippet__title">Submit a Code Snippet</h2>
+            <form class="submit-snippet__form">
+                <input type="text" class="form__input" placeholder="Snippet Title" required>
+                <textarea class="form__textarea" placeholder="Enter your code snippet..." required></textarea>
+                <input type="text" class="form__input" placeholder="Author Name" required>
+                <button type="submit" class="form__btn">Submit Snippet</button>
+            </form>
+        </section>
+    </main>
+
+    <article class="code">
+        <h1 id="head">Popular codes</h1>
+        <p id="info">find your queries and sorce code here </p>
+        <article class="code-day">
+            <h2>Data structure and algoritms</h2>
+            <p><a href="https://github.com/hussainali99a/c-code/blob/main/array3.cpp">Array</a>,<a href="https://github.com/hussainali99a/c-code/blob/main/linkedlist_insertingatend.cpp">Linked list</a>,<a href="https://github.com/hussainali99a/c-code/blob/main/stack.c">Stack</a>,<a href="https://github.com/hussainali99a/c-code/blob/main/queue.c">Queue</a> , etc</p>
+        </article>
+  <article class="code-day">
+      <h2>Python sorce code</h2>
+      <p><a href="https://github.com/hussainali99a/python-rep/upload/main">Repository</a></p>
+  </article>
+  <article class="code-day">
+    <h2>Html project </h2>
+    <p><a href="https://hussainali99a.github.io/html-motivational-site/"> Motivational website</a></p>
+</article>
+</article>
+<footer class="footer">
+    <p class="footer__text">&copy; 2023 Code Snippet Repository</p>
+</footer>
+</body>
+
+</html>

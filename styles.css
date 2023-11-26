@@ -1,0 +1,175 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:lightcyan;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__nav {
+    margin-top: 15px;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__item {
+    margin-right: 20px;
+}
+
+.nav__item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+.snippet {
+    margin-bottom: 30px;
+}
+
+.snippet__title {
+    margin-bottom: 15px;
+}
+
+.snippet-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.snippet-card__code {
+    display: block;
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+/* Submit snippet section styles */
+.submit-snippet {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submit-snippet__title {
+    margin-bottom: 15px;
+}
+
+.submit-snippet__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input,
+.form__textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.form__btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+}
+.code {
+    margin: 0;
+    padding: 0.3rem;
+    background-color: #eee;
+}
+
+.code>h1,
+.code-day {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.day-forecast {
+    background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
+}
+
+.code-day>h2,
+.code-day>p {
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-weight:900;
+    
+}
+#info{
+    margin-left: 10px;
+    font-family: cursive;
+    color: darkgrey;
+}
+#head{
+    color: #9AD0C2;
+}
+.image{
+    margin-top: 2%;
+    margin-left:10%;
+    height:300px;
+    width:300px;
+    
+}
+#head2{
+    margin-left: 10%;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    margin-left: 8%;
+    flex-wrap: wrap;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    height: 350px;
+    width: 500px;
+}
