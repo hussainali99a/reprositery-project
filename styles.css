@@ -156,11 +156,10 @@ main {
 }
 .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: white;
     align-items: center;
     margin-left: 8%;
-    flex-wrap: wrap;
 }
 
 .flex-container>div {
